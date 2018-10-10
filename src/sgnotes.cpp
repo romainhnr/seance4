@@ -2,14 +2,9 @@
 #include <vector>
 #include <string>
 #include <fstream>
-//#include "etudiants.h"
+#include "etudiants.h"
 using namespace std;
 
-class etudiants{
-	public:
-		string nom;
-		int note;
-};
 
 int main(){
 	vector<etudiants> etudiant;
